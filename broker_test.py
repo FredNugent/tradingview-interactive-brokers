@@ -12,7 +12,7 @@ from broker_root import broker_root
 from broker_ibkr import broker_ibkr
 from broker_alpaca import broker_alpaca
 
-for account in ["U8438939", "PA3I5VZDCGPF"]:
+for account in ["U3546193"]:
     print(f"Account: {account}")
     bot = "live"
     config = configparser.ConfigParser()
